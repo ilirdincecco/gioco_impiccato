@@ -11,7 +11,7 @@ import java.net.*;
 
 //Inizializzo la socket
     try{
-        socket = new Socket ("localhost", 1025);
+        socket = new Socket ("localhost", 2804);
     }
     catch (java.net.ConnectException ex){
         System.out.println("Impossibile stabilire una connessione. Server Down?");
